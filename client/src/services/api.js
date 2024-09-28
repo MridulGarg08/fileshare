@@ -6,7 +6,7 @@ const headers={
 }
 export const createsignedurl = async (req, res) =>{
     try {
-       const resp= await axios.get('http://localhost:8000/image-url')
+       const resp= await axios.get('https://fileshare-backend-7b6i.onrender.com/image-url')
        return resp.data;
         
     } catch (error) {
