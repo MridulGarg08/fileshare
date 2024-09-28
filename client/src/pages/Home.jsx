@@ -21,7 +21,7 @@ const Home = () => {
       seturl(url.split('?')[0]);
     }
     file && getdata();
-  },[file])
+  },[file,url])
 
   return (
     <>
